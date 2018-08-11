@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "4edebf2b-a06a-4441-b8d5-e8a1d6754489",
+            "Value": {
+                "id": "5039a141-531a-4220-8f5d-d600879dce1e",
+                "resourcePath": "scripts\\scr_forklift_movement\\scr_forklift_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "53014216-4811-4d18-84e4-36112acd5bc1",
             "Value": {
                 "id": "34b4a328-7853-4b3c-8b5b-47eb2b4fbfbc",
@@ -237,10 +245,18 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f85d98b2-f652-4cd1-a369-ea7f436d1be9",
+            "Value": {
+                "id": "60e2d196-5120-4b6b-9553-c90a6189ca82",
+                "resourcePath": "objects\\obj_moveable_crate\\obj_moveable_crate.yy",
+                "resourceType": "GMObject"
+            }
         }
     ],
     "script_order": [
-        
+        "4edebf2b-a06a-4441-b8d5-e8a1d6754489"
     ],
     "tutorial": ""
 }
