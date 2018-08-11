@@ -34,3 +34,11 @@ if keyboard_check(ord("D")) and keyboard_check(ord("S")) {
 if keyboard_check(ord("A")) and keyboard_check(ord("S")) {
 	image_angle -= 2;	
 }
+
+if keyboard_check(ord("A")) {
+	image_angle += 5;	
+}
+
+if keyboard_check(ord("D")) {
+	image_angle -= 5;	
+}
