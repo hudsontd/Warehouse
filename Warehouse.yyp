@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "3855ac5f-3ba9-4259-b6c7-dd08f00f7a26",
+            "Value": {
+                "id": "14909d6f-1abb-4c22-b9b1-051a0dfb6930",
+                "resourcePath": "sprites\\spr_tile_floor_warehouse\\spr_tile_floor_warehouse.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a8e41f3-cb68-40e3-90fe-d31dbf3dba95",
+            "Value": {
+                "id": "bd06e9d3-d302-4018-bb63-bcfcc7c28330",
+                "resourcePath": "sprites\\spr_crate_potions\\spr_crate_potions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "43b8c649-e297-415a-9858-0ea085c311cc",
             "Value": {
                 "id": "49242f26-8357-4229-afd9-60cc0633075f",
@@ -132,6 +148,14 @@
                 "id": "79cbddc6-b02e-44b7-a9ea-f9b61612dcc3",
                 "resourcePath": "views\\54dfa4d0-4acf-41cf-a47c-329f70a58b89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b938d99-dc9a-4508-ac0a-cc29b804094b",
+            "Value": {
+                "id": "f27d3673-a189-48d4-acfb-1d3d8318d0ca",
+                "resourcePath": "objects\\obj_crate_cage_dragon\\obj_crate_cage_dragon.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +223,14 @@
             }
         },
         {
+            "Key": "9248d3f1-2919-4bce-9332-004ef28fce90",
+            "Value": {
+                "id": "152132a3-cf73-4a57-8b5d-db34b45cb44e",
+                "resourcePath": "objects\\obj_crate_cage_fish\\obj_crate_cage_fish.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "929f42cb-152d-4463-8780-6ae001c1d164",
             "Value": {
                 "id": "3f8c59ce-9532-475b-a2c0-8bb529a3b981",
@@ -215,6 +247,14 @@
             }
         },
         {
+            "Key": "b0d8e687-485e-4e3e-920b-7d228dbe1ae4",
+            "Value": {
+                "id": "fe8aee6f-b276-4c7b-bfaf-d799ace7842d",
+                "resourcePath": "sprites\\spr_crate_cage_fish\\spr_crate_cage_fish.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b7824a79-95d7-4b42-8979-eef68112f97c",
             "Value": {
                 "id": "127e9038-579f-469f-a909-54a2ef05d5c8",
@@ -228,6 +268,22 @@
                 "id": "60e633ac-65c4-41a0-884a-372a25d8fe37",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d4ef6a45-b4ff-4391-be2d-9e5039c44e3e",
+            "Value": {
+                "id": "1d8abb3d-396a-4e3b-a190-c6a411241728",
+                "resourcePath": "sprites\\spr_crate_cage_dragon\\spr_crate_cage_dragon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d83593c1-f930-4bd0-b26c-11a940b587b0",
+            "Value": {
+                "id": "0a73de6b-ee71-461a-8e6e-3c952395a8bb",
+                "resourcePath": "tilesets\\tile_warehouse_floor\\tile_warehouse_floor.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -251,6 +307,14 @@
             "Value": {
                 "id": "60e2d196-5120-4b6b-9553-c90a6189ca82",
                 "resourcePath": "objects\\obj_moveable_crate\\obj_moveable_crate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fdf9d06d-ddd3-42e2-bf0a-ae2d964c455a",
+            "Value": {
+                "id": "ab5e355c-40bc-4a7b-9360-7c928fcd2433",
+                "resourcePath": "objects\\obj_crate_potions\\obj_crate_potions.yy",
                 "resourceType": "GMObject"
             }
         }
