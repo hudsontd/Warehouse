@@ -9,7 +9,7 @@ if(load_id == id || load_id == other.id){
 	//crates are on top of eachother and 
 	//not attached to the forklift
 } else {
-	motion_add(point_direction(other.x, other.y, x, y), 1);
+	motion_add(point_direction(other.x, other.y, x, y), 2);
 	
 	if (x == other.x and y == other.y) {
 		x += 1;	

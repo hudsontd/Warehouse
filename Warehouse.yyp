@@ -103,10 +103,18 @@
             }
         },
         {
+            "Key": "41a362c8-7b7a-49b2-b834-c7c1f618d4de",
+            "Value": {
+                "id": "d38a1ce0-8483-4300-8497-81c461897761",
+                "resourcePath": "views\\41a362c8-7b7a-49b2-b834-c7c1f618d4de.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "43b8c649-e297-415a-9858-0ea085c311cc",
             "Value": {
                 "id": "49242f26-8357-4229-afd9-60cc0633075f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\rm_level\\rm_level.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -156,6 +164,14 @@
                 "id": "79cbddc6-b02e-44b7-a9ea-f9b61612dcc3",
                 "resourcePath": "views\\54dfa4d0-4acf-41cf-a47c-329f70a58b89.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "56a5b677-44c0-4f5f-89d2-5a2ae145069e",
+            "Value": {
+                "id": "327bc864-efe7-40d6-b100-92239a4964d2",
+                "resourcePath": "scripts\\scr_count_overlap\\scr_count_overlap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -247,6 +263,22 @@
             }
         },
         {
+            "Key": "7e023eff-c9a7-4500-a763-d54e116b38d0",
+            "Value": {
+                "id": "00ce6973-7899-4f0c-a0ef-7b0c8989ad7f",
+                "resourcePath": "views\\7e023eff-c9a7-4500-a763-d54e116b38d0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7fbd5e9d-561a-474b-88a9-886babf46927",
+            "Value": {
+                "id": "dfe4d246-2d25-44af-ba67-b0cb230e4e79",
+                "resourcePath": "views\\7fbd5e9d-561a-474b-88a9-886babf46927.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8265be09-cb54-4e4b-b3fc-aac4ee909232",
             "Value": {
                 "id": "16701e9b-9437-4252-9c29-550b079457e4",
@@ -303,11 +335,35 @@
             }
         },
         {
+            "Key": "a61bd5fb-af4d-4398-993d-831dc4b39c66",
+            "Value": {
+                "id": "5523c150-a1fd-48ff-a9e2-b7d051bd2b45",
+                "resourcePath": "scripts\\scr_determine_drop_off\\scr_determine_drop_off.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "3c305b4c-79ae-4b46-883c-06f0d031a76d",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "acd5866f-0ced-4852-b3a8-29536ba2dc33",
+            "Value": {
+                "id": "ee25baaf-4c30-4963-8ff1-0f56e52756c5",
+                "resourcePath": "objects\\obj_potion_icon\\obj_potion_icon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afb36df3-7767-4101-9e16-3c44d5cc19f5",
+            "Value": {
+                "id": "53aa7e52-1650-49f6-97a5-a173d6ea2666",
+                "resourcePath": "views\\afb36df3-7767-4101-9e16-3c44d5cc19f5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -332,6 +388,14 @@
                 "id": "127e9038-579f-469f-a909-54a2ef05d5c8",
                 "resourcePath": "views\\b7824a79-95d7-4b42-8979-eef68112f97c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c145f89f-e04c-4503-9813-44c4a10084a3",
+            "Value": {
+                "id": "0ac88262-b848-422c-8b3e-f5291a310047",
+                "resourcePath": "sprites\\spr_potion_icon\\spr_potion_icon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -364,6 +428,14 @@
                 "id": "0a73de6b-ee71-461a-8e6e-3c952395a8bb",
                 "resourcePath": "tilesets\\tile_warehouse_floor\\tile_warehouse_floor.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "da3dbd9d-85a5-4f6d-bc4c-acf2cf6069a2",
+            "Value": {
+                "id": "b79ea120-10d5-4d5c-8573-2d96a8b6d162",
+                "resourcePath": "scripts\\scr_check_drop_off_overlap\\scr_check_drop_off_overlap.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -409,7 +481,10 @@
     ],
     "script_order": [
         "4edebf2b-a06a-4441-b8d5-e8a1d6754489",
-        "7123ec94-a5cd-40b3-a3d3-a18b49f2f1bc"
+        "7123ec94-a5cd-40b3-a3d3-a18b49f2f1bc",
+        "a61bd5fb-af4d-4398-993d-831dc4b39c66",
+        "da3dbd9d-85a5-4f6d-bc4c-acf2cf6069a2",
+        "56a5b677-44c0-4f5f-89d2-5a2ae145069e"
     ],
     "tutorial": ""
 }
