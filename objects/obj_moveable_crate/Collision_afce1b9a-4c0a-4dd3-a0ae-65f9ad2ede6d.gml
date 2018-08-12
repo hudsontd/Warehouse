@@ -11,5 +11,3 @@ if(load_id == id || load_id == other.id){
 	speed = 2;
 	other.direction = -direction; 
 }
-
-
