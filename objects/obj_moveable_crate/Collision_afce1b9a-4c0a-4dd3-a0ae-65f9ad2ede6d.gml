@@ -4,10 +4,16 @@ var load_id = obj_forklift.load;
 if(load_id == id || load_id == other.id){
 	speed = 2;
 	other.direction = direction;
+	obj_forklift.speed = 0;
 	
 	//crates are on top of eachother and 
 	//not attached to the forklift
 } else {
-	speed = 2;
-	other.direction = -direction; 
+	motion_add(point_direction(other.x, other.y, x, y), 1);
+	
+	if (x == other.x and y == other.y) {
+		x += 1;	
+	} else {
+		x -= 1;	
+	}
 }
