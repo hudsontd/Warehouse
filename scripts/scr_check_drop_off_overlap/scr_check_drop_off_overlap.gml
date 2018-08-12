@@ -1,5 +1,7 @@
-if place_meeting(x,y,obj_moveable_crate) {
-	current_crate = obj_crate.id;
+//if place_meeting(x,y,obj_crate) {
+	//current_crate = obj_crate.id;
+	current_crate = other.id;
+	
 	// If "new" crate in area was already in the area, do nothing,
 	// else, increment the appropriate counter.
 	for (i=0; i < array_length_1d(cratesOnPoint); i++) {
@@ -11,4 +13,4 @@ if place_meeting(x,y,obj_moveable_crate) {
 	if !(current_crate == noone) {
 		cratesOnPoint[array_length_1d(cratesOnPoint)] = current_crate;
 	}
-}
+//}
