@@ -1,9 +1,15 @@
-with(obj_moveable_crate) {
-	if place_meeting(x,y,other) {
-		other.speed = 3;
-		direction = other.direction;
-		speed = 0;
-		friction = 0.2;
-	}
+var load_id = obj_forklift.load;
+
+//one of the crates is attached to the forklift
+if(load_id == id || load_id == other.id){
+	speed = 2;
+	other.direction = direction;
+	
+	//crates are on top of eachother and 
+	//not attached to the forklift
+} else {
+	speed = 2;
+	other.direction = -direction; 
 }
+
 

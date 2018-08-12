@@ -1,3 +1,4 @@
+//hit crate
 with(obj_moveable_crate) {
 	if place_meeting(x,y,other) {
 		collision_sign = sign(other.speed);
