@@ -3,3 +3,5 @@
 image_angle = 90;
 // Sets initial speed to 0
 speed = 0;
+// Checks whether forklift is carrying something
+hasLoad = false;

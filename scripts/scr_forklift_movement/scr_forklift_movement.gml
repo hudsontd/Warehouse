@@ -8,7 +8,10 @@ if keyboard_check(ord("W")) {
 	}
 } else if (speed > 0) {
 	speed -= 0.1;	
+} else if place_meeting(x+speed, y, obj_moveable_crate) { 
+	x = xprevious; 
 }
+
 
 // If "S", set movement direction to current image_angle
 // If speed is greater than X, accelerate to that speed, if "S"
@@ -33,3 +36,4 @@ if keyboard_check(ord("A")) {
 if keyboard_check(ord("D")) {
 	image_angle -= 5;	
 }
+

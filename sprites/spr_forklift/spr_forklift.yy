@@ -6,12 +6,12 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 16,
-    "bbox_left": 19,
-    "bbox_right": 24,
-    "bbox_top": 4,
+    "bbox_bottom": 18,
+    "bbox_left": 0,
+    "bbox_right": 12,
+    "bbox_top": 1,
     "bboxmode": 2,
-    "colkind": 1,
+    "colkind": 2,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
@@ -66,5 +66,5 @@
     "type": 0,
     "width": 30,
     "xorig": 8,
-    "yorig": 10
+    "yorig": 9
 }
