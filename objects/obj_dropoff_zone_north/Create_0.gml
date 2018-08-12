@@ -21,6 +21,6 @@ num_fish_in_zone = 0;
 countedYet = false;
 
 // Create array to keep track of overlapping boxes
-cratesOnPoint[0] = noone;
+cratesOnPoint = ds_list_create();
 
 current_crate = noone;

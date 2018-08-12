@@ -1,16 +1,14 @@
-//if place_meeting(x,y,obj_crate) {
-	//current_crate = obj_crate.id;
 	current_crate = other.id;
 	
 	// If "new" crate in area was already in the area, do nothing,
 	// else, increment the appropriate counter.
-	for (i=0; i < array_length_1d(cratesOnPoint); i++) {
-		if (cratesOnPoint[i] == current_crate) {
+	for (i=0; i < ds_list_size(cratesOnPoint); i++) {
+		if (ds_list_find_value(cratesOnPoint,i) == current_crate) {
 			current_crate = noone;
 		}
 	}
 	// If it passed the test, add it to the array
 	if !(current_crate == noone) {
-		cratesOnPoint[array_length_1d(cratesOnPoint)] = current_crate;
+		ds_list_add(cratesOnPoint,current_crate);
 	}
 //}

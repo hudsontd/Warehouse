@@ -9,8 +9,6 @@ draw_text_transformed(307,9,num_potions_in_zone,0.3,0.3,0);
 draw_text_transformed(307,17,num_fish_in_zone,0.3,0.3,0);
 draw_text_transformed(307,25,num_dragons_in_zone,0.3,0.3,0);
 
-draw_text(20,20,current_crate);
-for (i=0;i<array_length_1d(cratesOnPoint);i++) {
-	draw_text(i*10,30,cratesOnPoint[i]);
+for(i=0; i<ds_list_size(cratesOnPoint);i++){
+draw_text(20,i*15,ds_list_find_value(cratesOnPoint,i));
 }
-
