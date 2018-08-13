@@ -4,11 +4,7 @@ draw_text_transformed(315,9,num_potions,0.3,0.3,0);
 draw_text_transformed(315,17,num_fish,0.3,0.3,0);
 draw_text_transformed(315,25,num_dragons,0.3,0.3,0);
 // Draw Number of Crates in delivery zone
-draw_text_transformed(307,1,num_crates_in_zone,0.3,0.3,0);
-draw_text_transformed(307,9,num_potions_in_zone,0.3,0.3,0);
-draw_text_transformed(307,17,num_fish_in_zone,0.3,0.3,0);
-draw_text_transformed(307,25,num_dragons_in_zone,0.3,0.3,0);
-
-for(i=0; i<ds_list_size(cratesOnPoint);i++){
-draw_text(20,i*15,ds_list_find_value(cratesOnPoint,i));
-}
+draw_text_transformed(299,1,num_crates_in_zone,0.3,0.3,0);
+draw_text_transformed(299,9,num_potions_in_zone,0.3,0.3,0);
+draw_text_transformed(299,17,num_fish_in_zone,0.3,0.3,0);
+draw_text_transformed(299,25,num_dragons_in_zone,0.3,0.3,0);
