@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "5c0a1853-61fa-4043-b37c-c690b6635386",
+            "Value": {
+                "id": "ed8dfb90-2361-4998-a84f-492dffef46ea",
+                "resourcePath": "fonts\\fnt_8bit_title\\fnt_8bit_title.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "5ecdd2ed-454e-46ac-bd92-3ba7502335db",
             "Value": {
                 "id": "770ee1fa-a96a-4a44-94f3-7866579d765d",
