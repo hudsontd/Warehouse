@@ -1,2 +1,3 @@
 // Draw score to screen
-draw_text(10,10,score);
+depth = -10;
+draw_text((room_width / 2)-10, 165, score);

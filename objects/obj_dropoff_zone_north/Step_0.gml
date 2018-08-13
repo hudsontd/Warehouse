@@ -16,7 +16,8 @@ if (num_crates == num_crates_in_zone) and (num_dragons == num_dragons_in_zone) a
 			obj_forklift.load = noone;
 		}
 		instance_destroy(ds_list_find_value(cratesOnPoint, i));
-		score += 10;	
+		score += 10;
+
 	}
 	
 	// After scoring an area, re-randomize what should be there.
@@ -34,6 +35,8 @@ if (num_crates == num_crates_in_zone) and (num_dragons == num_dragons_in_zone) a
 	
 	countedYet = false;
 	
+	// increment time
+	obj_timer.time += 5;
 
 }
 
