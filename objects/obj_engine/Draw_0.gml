@@ -1,3 +1,8 @@
 // Draw score to screen
 depth = -10;
-draw_text((room_width / 2)-10, 165, score);
+
+if room == rm_level {
+	draw_text((room_width / 2), 165, score);
+} else {
+	draw_text((room_width / 2), 120, score);
+}
